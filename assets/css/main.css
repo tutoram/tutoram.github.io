@@ -3,19 +3,106 @@
 
 
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,  header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
 body {
     line-height: 1;
@@ -1733,7 +1820,7 @@ body.is-loading *:after {
 /* Type */
 
 html {
-    font-size: 30pt;
+    font-size: 18pt;
 }
 
 @media screen and (max-width: 1680px) {
@@ -8590,41 +8677,13 @@ body.is-loading .items.onload-fade-in > * > .inner {
 #wrapper.divided > .invert:first-child {
     box-shadow: none !important;
 }
-       
-
-#map {
-        height: 30em;
-       }
-#findus {
-        height: 30em;
-        width: 50%;
-}
-#callus {
-    text-decoration: none
-}
-
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat');
 footer {
-        background-color: beige;
-    	margin:0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-}
-.inner.left {
-    text-align: left
-}
-.contactus {
-    border-top:solid 0.5px rgba(128, 128, 128, 0.5);
-            border-bottom:solid 0.4px rgba(128, 128, 128, 0.5)
-
-}
-.contactus section.spotlight {
-        border-top:solid 0.4px rgba(128, 128, 128, 0.5);
-
-}
-.gallery .wrapper.style1 {
-            border-top:solid 0.4px rgba(128, 128, 128, 0.5);
+    padding: 1em;
+    text-align: center;
+    background: rgba(198, 198, 198, 0.53);
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', monospace;
 
 }
